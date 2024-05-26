@@ -8,6 +8,7 @@ This repository contains code for extracting and analyzing reviews of KFC locati
 - [Requirements](#requirements)
 - [Setup](#setup)
 - [Usage](#usage)
+- [Data](#data)
 - [License](#license)
 
 ## Introduction
@@ -58,6 +59,11 @@ This project aims to gather reviews from KFC locations in Kingston, Ontario, and
     kfc-kingston-sentiment-analysis.ipynb
     ```
 2. The script will extract reviews and place details, perform sentiment analysis, and save the data to CSV files in the specified Google Drive folder.
+
+## Data
+The repository includes the following CSV files:
+- `store_data_reviews.csv`: Contains the extracted review data with sentiment analysis.
+- `store_data_place_details.csv`: Contains details of the KFC locations.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
