@@ -40,7 +40,7 @@ This project aims to gather reviews from KFC locations in Kingston, Ontario, and
 ### Local Setup
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/kfc-kingston-sentiment-analysis.git
+    git clone https://github.com/msabid/kfc-kingston-sentiment-analysis.git
     ```
 2. Navigate to the project directory:
     ```bash
