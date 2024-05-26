@@ -55,7 +55,7 @@ This project aims to gather reviews from KFC locations in Kingston, Ontario, and
 ## Usage
 1. Run the script:
     ```bash
-    python kfc_reviews_analysis.py
+    kfc-kingston-sentiment-analysis.ipynb
     ```
 2. The script will extract reviews and place details, perform sentiment analysis, and save the data to CSV files in the specified Google Drive folder.
 
