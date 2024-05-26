@@ -54,11 +54,11 @@ This project aims to gather reviews from KFC locations in Kingston, Ontario, and
     ```
 
 ## Usage
-1. Run the script:
+1. Open the Jupyter Notebook:
     ```bash
-    kfc-kingston-sentiment-analysis.ipynb
+    jupyter notebook kfc-kingston-sentiment-analysis.ipynb
     ```
-2. The script will extract reviews and place details, perform sentiment analysis, and save the data to CSV files in the specified Google Drive folder.
+2. Follow the instructions in the notebook to run each cell. The notebook will extract reviews and place details, perform sentiment analysis, and save the data to CSV files in the specified Google Drive folder.
 
 ## Data
 The repository includes the following CSV files:
