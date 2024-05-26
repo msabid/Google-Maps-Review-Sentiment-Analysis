@@ -1,6 +1,6 @@
-# KFC Reviews Analysis
+# KFC-Kingston-Sentiment-Analysis
 
-This repository contains code for extracting and analyzing reviews of KFC locations in Kingston, Ontario using Google Maps API and Google Cloud Natural Language API.
+This repository contains code for extracting and analyzing reviews of KFC locations in Kingston, Ontario using Google Maps API and Google Cloud Natural Language API. Additionally, it includes a Power BI report and a PDF summarizing the customer feedback analysis.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -9,6 +9,7 @@ This repository contains code for extracting and analyzing reviews of KFC locati
 - [Setup](#setup)
 - [Usage](#usage)
 - [Data](#data)
+- [Reports](#reports)
 - [License](#license)
 
 ## Introduction
@@ -19,12 +20,14 @@ This project aims to gather reviews from KFC locations in Kingston, Ontario, and
 - Collects reviews and place details for each location.
 - Performs sentiment analysis on the reviews using Google Cloud Natural Language API.
 - Saves the extracted and analyzed data to CSV files.
+- Includes a Power BI report summarizing the analysis.
 
 ## Requirements
 - Python 3.10
 - Google Maps API Key
 - Google Cloud Natural Language API
 - Required Python libraries: `urllib`, `requests`, `pprint`, `pandas`, `google.cloud`
+- Power BI Desktop (for viewing/editing the `.pbix` file)
 
 ## Setup
 
@@ -37,11 +40,11 @@ This project aims to gather reviews from KFC locations in Kingston, Ontario, and
 ### Local Setup
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/kfc-reviews-analysis.git
+    git clone https://github.com/yourusername/kfc-kingston-sentiment-analysis.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd kfc-reviews-analysis
+    cd kfc-kingston-sentiment-analysis
     ```
 3. Install the required Python libraries:
     ```bash
@@ -64,6 +67,11 @@ This project aims to gather reviews from KFC locations in Kingston, Ontario, and
 The repository includes the following CSV files:
 - `store_data_reviews.csv`: Contains the extracted review data with sentiment analysis.
 - `store_data_place_details.csv`: Contains details of the KFC locations.
+
+## Reports
+The repository also includes the following reports:
+- `KFC Customer Feedback Analysis, Kingston.pbix`: Power BI report summarizing the customer feedback analysis.
+- `KFC Customer Feedback Analysis, Kingston.pdf`: PDF version of the Power BI report.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
